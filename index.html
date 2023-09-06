@@ -16,7 +16,7 @@
         </div>
         <div>
             <label for="EmailAdress">Email Adress: *</label>
-            <input type="text" name="LastName" id="LastName">
+            <input type="text" name="EmailAdress" id="EmailAdress">
         </div>
         <div>
             <label for="password">Password: *</label>
@@ -30,8 +30,33 @@
             <label for="birthday">Birthday: </label>
             <input type="date" name="birthday" id="birthday">
         </div>
-        <h4>Gender Identity</h4>
-        
+        <h4>Gender Identity:</h4>
+        <div>
+            <input type="radio" name="sexo" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="sexo" id="female" value="female">
+            <label for="female">Female</label>
+            <input type="radio" name="sexo" id="Nonbinary" value="Nonbinary">
+            <label for="Nonbinary">"Non-binary</label>
+            <input type="radio" name="sexo" id="noanswer" value="noanswer">
+            <label for="noanswer">I prefer not to answer</label>
+        </div>
+        <h4>A short description about myseif: </h4>
+        <textarea name="comment"></textarea>
+        <div>
+            <label for="languaje">Favorite Languaje: </label>
+            <select id="languaje" name="languaje">
+                <option value="JavaScript">JavaScript</option>
+                <option value="C#">C#</option>
+                <option value="Java">Java</option>
+                <option value="Python">Python</option>  
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" name="accept" id="accept">
+            <label for="accept">Yes, I would like to receive periodic email updates</label>
+        </div>
+        <input type="submit" id="CreateAccount" value="Create Account">
     </body>
 </html>
 
@@ -43,8 +68,7 @@
 
 
 
-<input type="radio">
-<input type="checkbox">
-<input type="submit">
-<textarea>
-<select>
+
+<!--<input type="checkbox">
+<input type="submit"> -->
+
